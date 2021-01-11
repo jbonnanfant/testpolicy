@@ -1,0 +1,64 @@
+{
+ "properties": {
+  "displayName": "sandbox",
+  "policyType": "Custom",
+  "metadata": {
+   "category": "",
+   "parameterScopes": {
+    "allowedLocations": "/subscriptions/bc7fdf73-46a6-45a3-9372-4e06c2cc53d9",
+    "listOfAllowedSKUs": "/subscriptions/bc7fdf73-46a6-45a3-9372-4e06c2cc53d9"
+   },
+   "createdBy": "056579c9-5e3a-4ca4-9711-2d446a1aa22c",
+   "createdOn": "2021-01-11T08:00:38.7846167Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Géolocalisation-fr_1",
+    "policyDefinitionId": "/subscriptions/bc7fdf73-46a6-45a3-9372-4e06c2cc53d9/providers/Microsoft.Authorization/policyDefinitions/7322c865-4ed3-48ff-b665-9eb185ef78f9",
+    "parameters": {
+     "allowedLocations": {
+      "value": [
+       "francecentral"
+      ]
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Références SKU de compte de stockage autorisées_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7433c107-6db4-4ad1-b57a-a76dce0154a1",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "standard_zrs"
+      ]
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Références SKU de taille de machine virtuelle autorisées_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "basic_a0",
+       "basic_a1",
+       "basic_a2",
+       "basic_a3",
+       "basic_a4"
+      ]
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/bc7fdf73-46a6-45a3-9372-4e06c2cc53d9/providers/Microsoft.Authorization/policySetDefinitions/ded1b71cdb304ab88b00e85d",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "ded1b71cdb304ab88b00e85d"
+}
