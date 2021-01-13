@@ -1,0 +1,55 @@
+{
+    "properties": {
+        "parameters": {
+            "référencesSKUdecomptedestockageautorisées_listOfAllowedSKUs": {
+                "type": "array",
+                "metadata": {
+                    "displayName": "Références SKU autorisées",
+                    "strongType": "StorageSKUs"
+                },
+                "allowedValues": []
+            },
+            "typesderessourcesnonautorisés_listOfResourceTypesNotAllowed_1": {
+                "type": "array",
+                "metadata": {
+                    "displayName": "Types de ressources non autorisés",
+                    "strongType": "resourceTypes"
+                },
+                "allowedValues": []
+            },
+            "référencesSKUdetailledemachinevirtuelleautorisées_listOfAllowedSKUs_1": {
+                "type": "array",
+                "metadata": {
+                    "displayName": "Références SKU de taille autorisées",
+                    "strongType": "VMSKUs"
+                },
+                "allowedValues": []
+            },
+            "géolocalisation-fr_allowedLocations": {
+                "type": "array",
+                "metadata": {
+                    "displayName": "Allowed locations (Stratégie: Géolocalisation-fr)",
+                    "strongType": "location"
+                },
+                "allowedValues": []
+            }
+        },
+        "resourceGroups": {
+            "Groupederessources": {
+                "location": "francecentral",
+                "metadata": {
+                    "displayName": "CreateRessourceGroupe"
+                },
+                "dependsOn": []
+            }
+        },
+        "targetScope": "subscription",
+        "status": {
+            "timeCreated": "2020-12-10T09:18:52+00:00",
+            "lastModified": "2021-01-13T10:55:35.0449066+00:00"
+        }
+    },
+    "id": "/subscriptions/bc7fdf73-46a6-45a3-9372-4e06c2cc53d9/providers/Microsoft.Blueprint/blueprints/Sandbox_Blueprint",
+    "type": "Microsoft.Blueprint/blueprints",
+    "name": "Sandbox_Blueprint"
+}
